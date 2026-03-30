@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/js/script.js" defer></script>
+    <link rel="stylesheet" href="./src/css/criarLista.css">
+    <link rel="stylesheet" href="./src/css/lista.css">
+    <link rel="stylesheet" href="./src/css/editarTarefa.css">
+    <link rel="stylesheet" href="./src/css/checkbox.css">
+    <title>Kambom</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="criarLista">
+            <h1>Kanbom</h1>
+            <div class="informacaoTarefa">
+                <label for="pessoaTarefa">Quem irá fazer a tarefa:</label>
+                <input type="text" id="pessoaTarefa">
+                <label for="dadosLista">Insira a atividade que sera realizada:</label>
+                <input type="text" id="dadosLista">
+                <div class="checkImportante">
+                    <label class="checkbox-container">
+                        Tarefa importante:
+                        <input type="checkbox" id="tarefaImportante">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="botoes">
+                    <button onclick="criarTarefas()">Criar Tarefa</button>
+                    <button onclick="limparLista()">Limpar lista</button>
+                </div>
+            </div>
+        </div>
+        <div id="lista" class="lista"></div>
+    </div>
+</body>
+
+</html>

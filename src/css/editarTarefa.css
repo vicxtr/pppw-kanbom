@@ -1,0 +1,60 @@
+.areaEditar{
+    display: grid;   
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 1fr 1fr;
+    background-color: #6e5ec9;
+    color: white;
+    border: 5px black solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    width: 650px;
+}
+
+.informacoesTarefaEditar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.informacoesTarefaEditar input{
+    width: 200px;
+    border-radius: 5px;
+    height: 20px;
+    border: 2px black solid;
+}
+
+.areaEditar:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 6px 10px #030027c4;
+}
+
+.todosBotoesEditar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarefaImportanteEditar{
+    display: inline;
+    font-size: 20px;
+    align-items: center;
+}
+
+.botoesEditar{
+    display: flex;
+    gap: 20px;  
+}
+
+.botoesEditar button{
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.botoesEditar button:hover{
+    background-color: gray;
+}

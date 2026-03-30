@@ -1,0 +1,66 @@
+.lista{
+    display: flex;
+    height: 824px;
+    overflow-y: auto;
+    margin: 20px 0;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.areaLista{
+    display: grid;   
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 1fr 1fr;
+    background-color: #6e5ec9;
+    color: white;
+    border: 5px black solid;
+    border-radius: 15px;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 650px;
+}
+
+.areaLista:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 6px 10px #030027c4;
+}
+
+.lista p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.todosBotoes{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.tarefaConcluida{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.botoesLista{
+    display: flex;
+    gap: 30px
+}
+.botoesLista button{
+    font-size: 16px;
+    border: none;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.botoesLista button:hover{
+    background-color: #B0B0B0DA;
+}

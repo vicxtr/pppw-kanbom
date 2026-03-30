@@ -1,0 +1,74 @@
+body{
+    background: #fcfcfc;
+    background: radial-gradient(circle, #fcfcfc 64%, #f0eded 81%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: #fcfcfc;
+    background: radial-gradient(circle, #fcfcfc 64%, #f0eded 81%);
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 90px;
+    min-height: 735px;
+}
+
+.criarLista{
+    background-color: #6655cb;
+    color: white;
+    display: flex;
+    margin: 215px 10px 250px 150px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    border: 5px black solid;
+}
+
+.criarLista:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 10px 10px #000000;
+}
+
+.criarLista h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.informacaoTarefa{
+    display: flex;
+    margin: 5px 0px;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.informacaoTarefa input{
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.informacaoTarefa label{
+    font-size: 15px;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.botoes button{
+    font-size: 16px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.botoes button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background-color: #B0B0B0DA;
+}
